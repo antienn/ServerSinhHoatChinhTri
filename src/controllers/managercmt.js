@@ -21,7 +21,7 @@ const Managercmt = {
     },
     getalldata: async (req,res)=>{
         try{
-            const data = await userModels.find({},{ _id: 0 })
+            const data = await usersModels.find({},{ _id: 0 })
             return res.status(200).json({
                 "listdata":data,
             })
