@@ -9,7 +9,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 app.use(cors({
-    origin: "https://sinhhoatchinhtri-omega.vercel.app"
+    origin: "https://giaiphongmiennam30-4.vercel.app"
   }));
 
 app.use(express.json({limit: "50mb"}));
